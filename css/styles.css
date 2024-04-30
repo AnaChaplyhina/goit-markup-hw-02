@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+}
+
+.nav .nav-studio .nav-port .nav-contats {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav .nav-studio .nav-port .nav-contats:hover {
+    color: #404bbf;
+}
+
+.nav .nav-studio:focus {
+    color: #404bbf;
+}
+
+
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.main-title-page {
+    background: #2e2f42;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.contacts .contacts-link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+
+.contacts .contacts-link:hover {
+    color: #404bbf;
+}
+
+.contacts .contacts-link:focus {
+    color: #404bbf;
+}
+
+.main-title-page .main-title-page-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4d5ae5;
+    color: #fff;
+
+}
+
+.main-title-page .main-title-page-button:hover {
+    background: #404bbf;
+}

@@ -1,21 +1,44 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
+    background-color:#FFFFFF;
 }
 
-.nav .nav-studio .nav-port .nav-contats {
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.logo-tech {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+
+.link-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 
-.nav .nav-studio .nav-port .nav-contats:hover {
+.link-nav:hover {
     color: #404bbf;
 }
 
-.nav .nav-studio:focus {
+.link-nav:focus {
     color: #404bbf;
 }
 
@@ -23,6 +46,9 @@ body {
 
 .title {
     font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
     font-size: 36px;
     text-align: center;
     color: #2e2f42;
@@ -36,41 +62,81 @@ body {
     font-weight: 700;
     font-size: 56px;
     text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     color: #fff;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #2e2f42;
-}
-
-.contacts .contacts-link {
+.contacts {
     font-weight: 400;
     font-size: 16px;
+    font-style: normal
     color: #434455;
 }
 
-.contacts .contacts-link:hover {
+.contacts:hover {
     color: #404bbf;
 }
 
-.contacts .contacts-link:focus {
+.contacts:focus {
     color: #404bbf;
 }
 
-.main-title-page .main-title-page-button {
+.main-button {
+    font-family: "Roboto", sans-serif
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer
     background: #4d5ae5;
     color: #fff;
 
 }
 
-.main-title-page .main-title-page-button:hover {
+.main-button:hover {
     background: #404bbf;
+}
+
+.main-button:focus {
+    background-color: #404BBF
+}
+
+.advantage {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.our-team {
+    background-color: #F4F4FD
+
+  
+}
+.team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    background-color: #FFFFFF
+}
+
+.portfolio {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
+}
+
+.footer {
+    letter-spacing: 0.02em;
+    color:#F4F4FD;
+    line-height: 1.5;
+
 }

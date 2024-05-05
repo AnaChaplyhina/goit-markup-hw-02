@@ -70,27 +70,31 @@ body {
     color: #fff;
 }
 
-.adress {
-    font-style: normal
-}
-.contacts {
+
+.list-address {
     font-weight: 400;
     font-size: 16px;
     font-style: normal
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    
 }
 
-.contacts:hover {
+.list-adress:hover {
     color: #404bbf;
+    text-decoration: none;
 }
 
-.contacts:focus {
+.list-adress:focus {
     color: #404bbf;
+    text-decoration: none;
 }
 
 .main-button {
     font-family: "Roboto", sans-serif
-    background-color: #4D5AE5;
+    background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -131,7 +135,6 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
     
 }

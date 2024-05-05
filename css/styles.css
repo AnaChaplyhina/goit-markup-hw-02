@@ -82,12 +82,21 @@ body {
     
 }
 
-.address:hover {
+.contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.contacts:hover {
     color: #404bbf;
     text-decoration: none;
 }
 
-.address:focus {
+.contacts:focus {
     color: #404bbf;
     text-decoration: none;
 }
@@ -125,17 +134,14 @@ body {
     color: #2e2f42;
 }
 
-.list-section {
-    background: #FFFFFF;
-
-  
-
-
 .our-team {
-    background: #F4F4FD; 
+    background: #F4F4FD;
 }
 
+.list-team {
+    background: #FFFFFF;
 }
+
 .team {
     font-weight: 500;
     font-size: 20px;
